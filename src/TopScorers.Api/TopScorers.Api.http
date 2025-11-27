@@ -1,0 +1,22 @@
+@host = http://localhost:5080
+@apiKey = YOUR_API_KEY
+
+### Create score
+POST {{host}}/api/v1/scores
+Content-Type: application/json
+x-api-key: {{apiKey}}
+
+{
+  "firstName": "Dee",
+  "secondName": "Moore",
+  "score": 90
+}
+
+### Get score
+GET {{host}}/api/v1/scores?firstName=Dee&secondName=Moore
+Accept: application/json
+x-api-key: {{apiKey}}
+
+### Get top scores
+GET {{host}}/api/v1/scores/top
+Accept: application/json

@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Api\\TopScorers.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Api\\TopScorers.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Api\\TopScorers.Api.csproj",
+        "projectName": "TopScorers.Api",
+        "projectPath": "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Api\\TopScorers.Api.csproj",
+        "packagesPath": "C:\\Users\\Rowen\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rowen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Core\\TopScorers.Core.csproj": {
+                "projectPath": "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Core\\TopScorers.Core.csproj"
+              },
+              "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Infrastructure\\TopScorers.Infrastructure.csproj": {
+                "projectPath": "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Infrastructure\\TopScorers.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Core\\TopScorers.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Core\\TopScorers.Core.csproj",
+        "projectName": "TopScorers.Core",
+        "projectPath": "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Core\\TopScorers.Core.csproj",
+        "packagesPath": "C:\\Users\\Rowen\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rowen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Infrastructure\\TopScorers.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Infrastructure\\TopScorers.Infrastructure.csproj",
+        "projectName": "TopScorers.Infrastructure",
+        "projectPath": "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Infrastructure\\TopScorers.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Rowen\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rowen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Core\\TopScorers.Core.csproj": {
+                "projectPath": "C:\\Source\\Repos\\TopScorers\\src\\TopScorers.Core\\TopScorers.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
